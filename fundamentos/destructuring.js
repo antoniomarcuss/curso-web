@@ -16,4 +16,4 @@ const {nome : n, idade: i} = pessoa
 console.log(n,i)
 
 const {endereco: {logradouro,numero,cep}} = pessoa
-console.log(logradouro,numero,cep)
+console.log(logradouro,numero,cep) // acessando um valor que n esxiste da undefinite
