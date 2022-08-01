@@ -2,7 +2,7 @@ function imprimirResultado(nota){
     switch (Math.floor(nota)) {
         case 9: case 10:
             console.log('Quadro de Honra') 
-            break
+            break // ele influencia no swite no for e while . o continue funciona dentro do laço for e while
         case 8: case 7:
             console.log('Aprovado')
             break
